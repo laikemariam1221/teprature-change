@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempratore convertore</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+     <h1 class="heading">Temprature Convertore</h1>
+     <div class="temp-container">
+        <label for="celsius">Celsius:</label>
+        <input 
+        onchange="computeTemp(event)" 
+        type="number"
+        name="celsius"
+        id="celsius"
+        class="celsius" 
+        placeholder="Enter Temprature"
+        />
+     </div>
+     <div class="temp-container">
+        <label for="Faranite">Faranite:</label>
+        <input  
+        onchange="computeTemp(event)" 
+        type="number" 
+        name="Faranite" 
+        id="Faranite" 
+        class="Faranite" 
+        placeholder="Enter Temprature"
+        />
+     </div>
+     <div class="temp-container">
+        <label for="kelvin">Kelvin:</label>
+        <input  
+        onchange="computeTemp(event)" 
+         type="number"
+         name="kelvin" 
+         id="kelvin" 
+         class="kelvin" 
+         placeholder="Enter Temprature"
+         />
+     </div>
+  </div>
+<script src="/script.js"></script>
+</body>
+</html>
